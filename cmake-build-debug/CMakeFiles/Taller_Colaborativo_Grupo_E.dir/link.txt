@@ -1,1 +1,3 @@
-/usr/bin/c++ -g CMakeFiles/Taller_Colaborativo_Grupo_E.dir/main.cpp.o -o Taller_Colaborativo_Grupo_E 
+"C:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Taller_Colaborativo_Grupo_E.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\Taller_Colaborativo_Grupo_E.dir/objects.a @CMakeFiles\Taller_Colaborativo_Grupo_E.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\Taller_Colaborativo_Grupo_E.dir/objects.a -Wl,--no-whole-archive -o Taller_Colaborativo_Grupo_E.exe -Wl,--out-implib,libTaller_Colaborativo_Grupo_E.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Taller_Colaborativo_Grupo_E.dir\linklibs.rsp
