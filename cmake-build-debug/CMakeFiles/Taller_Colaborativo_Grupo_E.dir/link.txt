@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Taller_Colaborativo_Grupo_E.dir/main.cpp.o -o Taller_Colaborativo_Grupo_E 
