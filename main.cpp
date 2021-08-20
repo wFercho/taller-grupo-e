@@ -20,6 +20,7 @@ void menu(){
     do {
         cout<< menu_1<<endl;
         scanf("%u", &opc);
+        fflush(stdin);
         if(opc == 1){
 
         }else if (opc == 2){
