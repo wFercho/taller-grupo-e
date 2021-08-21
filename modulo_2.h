@@ -94,6 +94,7 @@ void delete_char(){
     cin >> cadena;
 
     cout << "Ingrese el caracter que desea eliminar" << endl;
+    fflush(stdin);
     cin >> c;
 
     for(int i=0; i<cadena.size(); i++){
@@ -113,9 +114,12 @@ void interseccion_cadenas() {
     string cadenaFiltrada;
 
     cout<<"Ingrese la cadena 1"<<endl;
-    cin>>cadena1;
+    getline(cin,cadena1);
+//    cin>>cadena1;
     cout<<"Ingrese la cadena 2"<<endl;
-    cin>>cadena2;
+    fflush(stdin);
+//    cin>>cadena2;
+    getline(cin,cadena2);
 
     string newCadena1 = tolowercase(cadena1);
     string newCadena2 = tolowercase(cadena2);

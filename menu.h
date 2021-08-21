@@ -36,6 +36,7 @@ void menu(){
             cout<< "--------------------Cadena a nombre propio--------------------"<<endl;
 
             cout<< "Ingrese texto a comvertir: ";
+            fflush(stdin);
             getline(cin,text);
             cout <<"Nombre propio: " << obj.ownName(text) << endl;
             getch();
@@ -44,8 +45,10 @@ void menu(){
             string text1,text2;
             cout<< "---------------Numero de veces de palabra en una cadena---------------"<<endl;
             cout<< "Ingrese palabra: ";
+            fflush(stdin);
             getline(cin,text1);
             cout<< "Ingrese Texto: ";
+            fflush(stdin);
             getline(cin,text2);
             cout <<"La palabra ["<< text1 << "] se repite " << obj.wordFrequency(text1,text2) << endl;
             getch();
@@ -55,6 +58,7 @@ void menu(){
             cout<< "--------------------Encriptar cadena--------------------"<<endl;
 
             cout<< "Ingrese texto a encriptar: ";
+            fflush(stdin);
             getline(cin,text);
             cout <<"Encriptado: " << obj.encrypt(text) << endl;
             getch();
@@ -63,6 +67,7 @@ void menu(){
             cout<< "--------------------Desencriptar cadena--------------------"<<endl;
 
             cout<< "Ingrese texto a desencriptar: ";
+            fflush(stdin);
             getline(cin,text);
             cout <<"Desencriptado: " << obj.decrypt(text) << endl;
             getch();
@@ -75,6 +80,7 @@ void menu(){
             getch();
         }else if (opc == 7){
             interseccion_cadenas();
+            getch();
         }else if (opc == 8){
             programa8();
             getch();
