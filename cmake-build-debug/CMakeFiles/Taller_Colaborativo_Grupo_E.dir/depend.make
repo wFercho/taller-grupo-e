@@ -3,4 +3,5 @@
 
 CMakeFiles/Taller_Colaborativo_Grupo_E.dir/main.cpp.o: ../main.cpp
 CMakeFiles/Taller_Colaborativo_Grupo_E.dir/main.cpp.o: ../menu.h
+CMakeFiles/Taller_Colaborativo_Grupo_E.dir/main.cpp.o: ../modulo_2.h
 

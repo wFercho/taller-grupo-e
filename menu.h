@@ -1,4 +1,4 @@
-
+#include "modulo_2.h"
 using namespace std;
 void menu(){
     string menu_1 = "------------------------------------------------"
@@ -7,7 +7,7 @@ void menu(){
                     "\n3| Encriptar cadena"
                     "\n4| Desencriptar cadena"
                     "\n5| Insertar caracteres por izquierda o por derecha"
-                    "\n6| Borrar caracteres de una cadena"
+                    "\n6| Borrar caracter de una cadena"
                     "\n7| Intersección entre cadenas"
                     "\n8| Diferencia entre dos cadenas"
                     "\n9| Borrar caracteres por izquierda o derecha"
@@ -29,11 +29,11 @@ void menu(){
         }else if (opc == 4){
 
         }else if (opc == 5){
-
+            insert_char_left_right();
         }else if (opc == 6){
-
+            delete_char();
         }else if (opc == 7){
-
+            interseccion_cadenas();
         }else if (opc == 8){
 
         }else if (opc == 9){
