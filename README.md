@@ -10,7 +10,7 @@
 - Encriptar cadena
 - Desencriptar cadena
 - Insertar caracteres por izquierda o derecha
-- Borrar caracteres de una cadena
+- Borrar caracter de una cadena
 - Intersección entre cadenas
 - Diferencia entre dos cadenas
 - Borrar caracteres por izquierda o derecha
