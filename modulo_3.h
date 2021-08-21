@@ -1,12 +1,3 @@
-//
-// Created by juanc on 20/08/2021.
-//
-
-#ifndef TRABAJOCOLABORATIVO2_MODULO_3_H
-#define TRABAJOCOLABORATIVO2_MODULO_3_H
-
-#endif //TRABAJOCOLABORATIVO2_MODULO_3_H
-
 #include <iostream>
 #include <string>
 #include <cstdlib>
