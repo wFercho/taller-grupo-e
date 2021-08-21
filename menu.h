@@ -36,11 +36,11 @@ void menu(){
         }else if (opc == 7){
             interseccion_cadenas();
         }else if (opc == 8){
-
+            programa8();
         }else if (opc == 9){
-
+            programa9();
         }else if (opc == 10){
-
+            programa10();
         }else if (opc == 0){
             printf("----Hasta pronto!!!----");
         }else{
