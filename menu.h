@@ -69,20 +69,26 @@ void menu(){
 
         }else if (opc == 5){
             insert_char_left_right();
+            getch();
         }else if (opc == 6){
             delete_char();
+            getch();
         }else if (opc == 7){
             interseccion_cadenas();
         }else if (opc == 8){
             programa8();
+            getch();
         }else if (opc == 9){
             programa9();
+            getch();
         }else if (opc == 10){
             programa10();
+            getch();
         }else if (opc == 0){
             printf("----Hasta pronto!!!----");
         }else{
             printf("****Ingrese una opción valida****\n");
+            getch();
         }
 
     } while (opc != 0);
