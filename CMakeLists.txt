@@ -3,4 +3,4 @@ project(Taller_Colaborativo_Grupo_E)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Taller_Colaborativo_Grupo_E main.cpp)
+add_executable(Taller_Colaborativo_Grupo_E main.cpp Modulo_1.cpp Modulo_1.h)

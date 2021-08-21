@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/yeiso/Desktop/C++/proyectos/taller-grupo-e/Modulo_1.cpp">
+			<Option target="Taller_Colaborativo_Grupo_E"/>
+		</Unit>
+		<Unit filename="C:/Users/yeiso/Desktop/C++/proyectos/taller-grupo-e/Modulo_1.h">
+			<Option target="Taller_Colaborativo_Grupo_E"/>
+		</Unit>
 		<Unit filename="C:/Users/yeiso/Desktop/C++/proyectos/taller-grupo-e/main.cpp">
 			<Option target="Taller_Colaborativo_Grupo_E"/>
 		</Unit>

@@ -1,7 +1,12 @@
+#include "Modulo_1.h"
 #include "modulo_2.h"
 #include "modulo_3.h"
+#include <conio.h>
 using namespace std;
+
+
 void menu(){
+    Modulo_1 obj;
     string menu_1 = "------------------------------------------------"
                     "\n1| Cadena a nombre propio "
                     "\n2| Numero de veces de palabra en una cadena"
@@ -22,12 +27,40 @@ void menu(){
         scanf("%u", &opc);
         fflush(stdin);
         if(opc == 1){
+            string text;
+            cout<< "--------------------Cadena a nombre propio--------------------"<<endl;
+
+            cout<< "Ingrese texto a comvertir: ";
+            getline(cin,text);
+            cout <<"Nombre propio: " << obj.ownName(text) << endl;
+            getch();
 
         }else if (opc == 2){
+            string text1,text2;
+            cout<< "---------------Numero de veces de palabra en una cadena---------------"<<endl;
+            cout<< "Ingrese palabra: ";
+            getline(cin,text1);
+            cout<< "Ingrese Texto: ";
+            getline(cin,text2);
+            cout <<"La palabra ["<< text1 << "] se repite " << obj.wordFrequency(text1,text2) << endl;
+            getch();
 
         }else if (opc == 3){
+            string text;
+            cout<< "--------------------Encriptar cadena--------------------"<<endl;
 
+            cout<< "Ingrese texto a encriptar: ";
+            getline(cin,text);
+            cout <<"Encriptado: " << obj.encrypt(text) << endl;
+            getch();
         }else if (opc == 4){
+            string text;
+            cout<< "--------------------Desencriptar cadena--------------------"<<endl;
+
+            cout<< "Ingrese texto a desencriptar: ";
+            getline(cin,text);
+            cout <<"Desencriptado: " << obj.decrypt(text) << endl;
+            getch();
 
         }else if (opc == 5){
             insert_char_left_right();

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Taller_Colaborativo_Grupo_E.dir/Modulo_1.cpp.obj"
   "CMakeFiles/Taller_Colaborativo_Grupo_E.dir/main.cpp.obj"
   "Taller_Colaborativo_Grupo_E.exe"
   "Taller_Colaborativo_Grupo_E.exe.manifest"

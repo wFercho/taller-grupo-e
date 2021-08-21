@@ -128,6 +128,30 @@ Taller_Colaborativo_Grupo_E/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Taller_Colaborativo_Grupo_E.dir\build.make CMakeFiles/Taller_Colaborativo_Grupo_E.dir/build
 .PHONY : Taller_Colaborativo_Grupo_E/fast
 
+Modulo_1.obj: Modulo_1.cpp.obj
+.PHONY : Modulo_1.obj
+
+# target to build an object file
+Modulo_1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Taller_Colaborativo_Grupo_E.dir\build.make CMakeFiles/Taller_Colaborativo_Grupo_E.dir/Modulo_1.cpp.obj
+.PHONY : Modulo_1.cpp.obj
+
+Modulo_1.i: Modulo_1.cpp.i
+.PHONY : Modulo_1.i
+
+# target to preprocess a source file
+Modulo_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Taller_Colaborativo_Grupo_E.dir\build.make CMakeFiles/Taller_Colaborativo_Grupo_E.dir/Modulo_1.cpp.i
+.PHONY : Modulo_1.cpp.i
+
+Modulo_1.s: Modulo_1.cpp.s
+.PHONY : Modulo_1.s
+
+# target to generate assembly for a file
+Modulo_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Taller_Colaborativo_Grupo_E.dir\build.make CMakeFiles/Taller_Colaborativo_Grupo_E.dir/Modulo_1.cpp.s
+.PHONY : Modulo_1.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Taller_Colaborativo_Grupo_E
+	@echo ... Modulo_1.obj
+	@echo ... Modulo_1.i
+	@echo ... Modulo_1.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
