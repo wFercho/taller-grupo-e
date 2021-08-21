@@ -4,10 +4,15 @@
 #include <conio.h>
 using namespace std;
 
+void cartel(){
+    cout <<"**************************************************************************"<<endl;
+    cout <<"*                    TALLER GRUPAL MANEJO DE CADENAS                     *"<<endl;
+    cout <<"**************************************************************************"<<endl;
 
+}
 void menu(){
     Modulo_1 obj;
-    string menu_1 = "------------------------------------------------"
+    string menu_1 = "\n------------------------------------------------"
                     "\n1| Cadena a nombre propio "
                     "\n2| Numero de veces de palabra en una cadena"
                     "\n3| Encriptar cadena"
