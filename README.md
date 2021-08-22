@@ -1,8 +1,8 @@
 # TALLER COLABORATIVO GRUPO E
 ## Integrantes
-### - Juan Sebastian Correa Sánchez
-### - Yeison Alexis Medina Ibañez
-### - William Fernando Salamanca Barrera
+### - Juan Sebastian Correa Sánchez -Modulo_3
+### - Yeison Alexis Medina Ibañez -Modulo_1
+### - William Fernando Salamanca Barrera -Modulo_2
 
 ## Menú del Programa
 - Cadena a nombre propio
