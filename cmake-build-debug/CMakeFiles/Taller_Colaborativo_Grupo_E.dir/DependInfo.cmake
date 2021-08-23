@@ -1,24 +1,16 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
   "CXX"
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/yeiso/Desktop/C++/proyectos/taller-grupo-e/Modulo_1.cpp" "C:/Users/yeiso/Desktop/C++/proyectos/taller-grupo-e/cmake-build-debug/CMakeFiles/Taller_Colaborativo_Grupo_E.dir/Modulo_1.cpp.obj"
-  "C:/Users/yeiso/Desktop/C++/proyectos/taller-grupo-e/main.cpp" "C:/Users/yeiso/Desktop/C++/proyectos/taller-grupo-e/cmake-build-debug/CMakeFiles/Taller_Colaborativo_Grupo_E.dir/main.cpp.obj"
+  "/home/fercho/CLionProjects/taller-grupo-e/Modulo_1.cpp" "/home/fercho/CLionProjects/taller-grupo-e/cmake-build-debug/CMakeFiles/Taller_Colaborativo_Grupo_E.dir/Modulo_1.cpp.o"
+  "/home/fercho/CLionProjects/taller-grupo-e/main.cpp" "/home/fercho/CLionProjects/taller-grupo-e/cmake-build-debug/CMakeFiles/Taller_Colaborativo_Grupo_E.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  )
-
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
   )
 
 # Targets to which this target links.

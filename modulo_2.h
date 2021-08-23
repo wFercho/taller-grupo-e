@@ -36,7 +36,7 @@ string tolowercase(string cadena){
         }*/else if(cadena[i]==165){
             newCadena += cadena[i]-1;
         }else{
-            cout<<"La cadena contiene un caracter que no pertenece al vocabulario";
+            newCadena += cadena[i];
         }
     }
     return newCadena;

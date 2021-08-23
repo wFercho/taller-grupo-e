@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Taller_Colaborativo_Grupo_E.dir/Modulo_1.cpp.obj"
-  "CMakeFiles/Taller_Colaborativo_Grupo_E.dir/main.cpp.obj"
-  "Taller_Colaborativo_Grupo_E.exe"
-  "Taller_Colaborativo_Grupo_E.exe.manifest"
+  "CMakeFiles/Taller_Colaborativo_Grupo_E.dir/Modulo_1.cpp.o"
+  "CMakeFiles/Taller_Colaborativo_Grupo_E.dir/main.cpp.o"
+  "Taller_Colaborativo_Grupo_E"
   "Taller_Colaborativo_Grupo_E.pdb"
-  "libTaller_Colaborativo_Grupo_E.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
